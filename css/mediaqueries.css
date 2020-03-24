@@ -1,0 +1,149 @@
+@media all and (max-width: 1024px) {
+  .font-20 {
+    font-size: 19px;
+  }
+
+  .font-26 {
+    font-size: 25px;
+  }
+
+  .font-30 {
+    font-size: 29px;
+    font-weight: bolder;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .font-20 {
+    font-size: 18px;
+  }
+
+  .font-26 {
+    font-size: 24px;
+  }
+
+  .font-30 {
+    font-size: 28px;
+    font-weight: bolder;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .font-20 {
+    font-size: 16px;
+  }
+
+  .font-26 {
+    font-size: 22px;
+  }
+
+  .font-30 {
+    font-size: 26px;
+    font-weight: bolder;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .font-20 {
+    font-size: 15px;
+  }
+
+  .font-26 {
+    font-size: 21px;
+  }
+
+  .font-30 {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .font-20 {
+    font-size: 13px;
+  }
+
+  .font-26 {
+    font-size: 19px;
+  }
+
+  .font-30 {
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  .game-board {
+    height: 55%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .font-20 {
+    font-size: 11px;
+  }
+
+  .font-26 {
+    font-size: 16px;
+  }
+
+  .font-30 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .game-board {
+    height: 50%;
+  }
+}
+
+@media all and (max-width: 411px) {
+  .font-20 {
+    font-size: 10px;
+  }
+
+  .font-26 {
+    font-size: 14px;
+  }
+
+  .font-30 {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .game-board {
+    height: 40%;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .font-20 {
+    font-size: 8px;
+  }
+
+  .font-26 {
+    font-size: 12px;
+  }
+
+  .font-30 {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  .game-board {
+    height: 35%;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .font-20 {
+    font-size: 7px;
+  }
+
+  .font-26 {
+    font-size: 11px;
+  }
+
+  .font-30 {
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  .game-board {
+    height: 30%;
+  }
+}

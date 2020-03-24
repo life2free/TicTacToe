@@ -8,13 +8,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/mediaqueries.css" />
     <title>Tic Tac Toe</title>
   </head>
   <body>
-    <div class="font-26 game-title">Welcome to Tic Tac Toe</div>
+    <div class="font-30 game-title">Welcome to Tic Tac Toe</div>
     <hr />
-    <div class="game-score">
-      <div>Score:</div>
+    <div class="font-26 game-score">
+      <div>[Score]</div>
       <div>
         <span style="color:red">Red:</span>
         <span class="redplayer-score"></span>
@@ -24,7 +25,7 @@
         <span class="blueplayer-score"></span>
       </div>
     </div>
-    <div class="current-player">
+    <div class="font-20 current-player">
       <span class="player-name"></span><span>'s turn</span>
     </div>
     <div class="font-20 game-result"></div>
@@ -40,8 +41,11 @@
         <div class="square"></div>
         <div class="square"></div>
       </div>
+      <div class="game-actions">
+        <button class="font-20 reset-button">Reset</button>
+      </div>
     </div>
-    <div class="game-actions"><button class="reset-button">Reset</button></div>
+
     <script type="text/javascript" src="./js/script.js"></script>
   </body>
 </html>
